@@ -13,6 +13,8 @@ container.addEventListener('mousemove', (e) => {
 
     card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 
+    title.style.textShadow = '0 10px 5px rgba(0, 0, 0, 0.2)';
+
     title.style.transform = 'translateZ(120px)';
     iphone.style.transform = 'translateZ(125px) rotateZ(360deg) rotateX(360deg) rotateY(360deg)';
     addtocart.style.transform = 'translateZ(120px)';
@@ -27,6 +29,8 @@ container.addEventListener('mouseenter', () => {
 container.addEventListener('mouseleave', (e)  => {
     card.style.transition = 'all 0.5s ease';
     card.style.transform = 'rotateY(0deg) rotateX(0deg)';
+
+    title.style.textShadow = 'none';
 
     title.style.transform = 'translateZ(0px)';
     iphone.style.transform = 'translateZ(0px) rotateZ(0deg)';
