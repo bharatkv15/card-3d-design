@@ -17,7 +17,7 @@ container.addEventListener('mousemove', (e) => {
 
     title.style.transform = 'translateZ(120px)';
     iphone.style.transform = 'translateZ(125px) rotateZ(360deg) rotateX(360deg) rotateY(360deg)';
-    addtocart.style.transform = 'translateZ(120px)';
+    addtocart.style.transform = 'translateZ(100px)';
     description.style.transform = 'translateZ(100px)';
     storage.style.transform = 'translateZ(100px)';
 })
